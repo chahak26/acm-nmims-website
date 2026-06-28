@@ -9,9 +9,9 @@ export default function EventCard({ event }) {
   }
 
   return (
-    <Link to={`/events/${event.id}`} className="glass rounded-2xl p-6 hover:border-cyan/30 border border-transparent transition-all group block">
+    <Link to={`/events/${event.id}`} className="glass rounded-2xl p-6 hover:border-cyan/30 border border-transparent card-hover group block h-full">
       <div className="flex items-start justify-between mb-3">
-        <span className={`text-xs px-2.5 py-1 rounded-full font-medium ${typeColors[event.type] || 'bg-white/10 text-slate-300'}`}>
+        <span className={`text-xs px-2.5 py-1 rounded-full font-medium transition-transform group-hover:scale-105 ${typeColors[event.type] || 'bg-white/10 text-slate-300'}`}>
           {event.type}
         </span>
         <span className="text-xs text-slate-500">{new Date(event.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>

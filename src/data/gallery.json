@@ -1,14 +1,45 @@
 [
-  { "id": 1, "title": "Web Dev Workshop", "category": "Workshops", "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop", "date": "2024-09" },
-  { "id": 2, "title": "CodeStorm Hackathon", "category": "Competitions", "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&h=400&fit=crop", "date": "2024-11" },
-  { "id": 3, "title": "Team Strategy Meeting", "category": "Team Meetings", "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop", "date": "2025-01" },
-  { "id": 4, "title": "AI/ML Tech Talk", "category": "Guest Sessions", "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop", "date": "2025-01" },
-  { "id": 5, "title": "Git Masterclass", "category": "Workshops", "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop", "date": "2025-02" },
-  { "id": 6, "title": "InnovateX Hackathon", "category": "Competitions", "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop", "date": "2025-04" },
-  { "id": 7, "title": "Chapter Annual Day", "category": "Celebrations", "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&h=400&fit=crop", "date": "2025-05" },
-  { "id": 8, "title": "School Outreach Program", "category": "Outreach", "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=400&fit=crop", "date": "2025-06" },
-  { "id": 9, "title": "Cloud Computing Webinar", "category": "Technical Events", "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop", "date": "2025-03" },
-  { "id": 10, "title": "React Bootcamp", "category": "Workshops", "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop", "date": "2025-09" },
-  { "id": 11, "title": "ACM-W Panel Discussion", "category": "Guest Sessions", "image": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=600&h=400&fit=crop", "date": "2025-10" },
-  { "id": 12, "title": "WebSprint 2026 Launch", "category": "Technical Events", "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop", "date": "2026-06" }
+  {
+    "id": 1,
+    "title": "ACM NMIMS Indore — Official Logo",
+    "category": "Celebrations",
+    "image": "/images/acm-logo.png",
+    "date": "2024",
+    "contain": true
+  },
+  {
+    "id": 2,
+    "title": "Chapter Group Photo — NMIMS Auditorium",
+    "category": "Team Meetings",
+    "image": "/images/chapter-group-photo.png",
+    "date": "2025-03"
+  },
+  {
+    "id": 3,
+    "title": "ACM Team at NMIMS Campus",
+    "category": "Team Meetings",
+    "image": "/images/team-walkthrough.png",
+    "date": "2025-01"
+  },
+  {
+    "id": 4,
+    "title": "ACM Alan Turing Guest Lecture",
+    "category": "Guest Sessions",
+    "image": "/images/guest-lecture-alan-turing.png",
+    "date": "2025-02"
+  },
+  {
+    "id": 5,
+    "title": "ACM India Chapter Summit 2025",
+    "category": "Technical Events",
+    "image": "/images/acm-india-summit-2025.png",
+    "date": "2025-12"
+  },
+  {
+    "id": 6,
+    "title": "WebSprint 2026 — Official Poster",
+    "category": "Competitions",
+    "image": "/images/websprint-poster.png",
+    "date": "2026-06"
+  }
 ]

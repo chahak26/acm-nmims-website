@@ -2,8 +2,8 @@ export default function TeamCard({ member }) {
   const initials = member.name.split(' ').map(n => n[0]).join('')
 
   return (
-    <div className="glass rounded-2xl p-6 text-center hover:border-cyan/20 border border-transparent transition-all group">
-      <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-cyan/30 to-purple/30 flex items-center justify-center font-display font-bold text-xl text-white mb-4 group-hover:scale-105 transition-transform">
+    <div className="glass rounded-2xl p-6 text-center hover:border-cyan/20 border border-transparent card-hover group h-full">
+      <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-cyan/30 to-purple/30 flex items-center justify-center font-display font-bold text-xl text-white mb-4 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-cyan/20 transition-all duration-300">
         {initials}
       </div>
       <h3 className="font-semibold text-white">{member.name}</h3>

@@ -38,8 +38,8 @@ export default function Contact() {
             <div className="glass rounded-2xl p-6">
               <h3 className="font-semibold text-white mb-2">Social Media</h3>
               <div className="flex gap-4 mt-2">
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-cyan text-sm transition-colors">LinkedIn</a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-cyan text-sm transition-colors">Instagram</a>
+                <a href="https://www.linkedin.com/in/acm-student-chapter?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-cyan text-sm transition-colors">LinkedIn</a>
+                <a href="https://www.instagram.com/acm_nmimsindore?igsh=Nm9nNXcxMHdsZHdv" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-cyan text-sm transition-colors">Instagram</a>
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-cyan text-sm transition-colors">GitHub</a>
               </div>
             </div>

@@ -1,6 +1,7 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import PageTransition from './components/PageTransition'
 import Home from './pages/Home'
 import About from './pages/About'
 import Events from './pages/Events'
@@ -14,25 +15,35 @@ import JoinACM from './pages/JoinACM'
 import Contact from './pages/Contact'
 import Blog from './pages/Blog'
 
+function AnimatedRoutes() {
+  const location = useLocation()
+
+  return (
+    <PageTransition key={location.pathname}>
+      <Routes location={location}>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/events/:id" element={<EventDetail />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/achievements" element={<Achievements />} />
+        <Route path="/live" element={<Live />} />
+        <Route path="/join" element={<JoinACM />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+    </PageTransition>
+  )
+}
+
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-navy">
       <Navbar />
       <main className="flex-1">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/events/:id" element={<EventDetail />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/achievements" element={<Achievements />} />
-          <Route path="/live" element={<Live />} />
-          <Route path="/join" element={<JoinACM />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
-        </Routes>
+        <AnimatedRoutes />
       </main>
       <Footer />
     </div>

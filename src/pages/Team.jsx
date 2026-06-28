@@ -1,5 +1,6 @@
 import PageHeader from '../components/PageHeader'
 import TeamCard from '../components/TeamCard'
+import Reveal from '../components/Reveal'
 import team from '../data/team.json'
 
 const sections = [
@@ -21,9 +22,15 @@ export default function Team() {
         {sections.map(({ key, title }) => (
           team[key]?.length > 0 && (
             <section key={key}>
-              <h2 className="font-display text-xl font-bold text-white mb-6">{title}</h2>
+              <Reveal>
+                <h2 className="font-display text-xl font-bold text-white mb-6">{title}</h2>
+              </Reveal>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                {team[key].map((m) => <TeamCard key={m.id} member={m} />)}
+                {team[key].map((m, i) => (
+                  <Reveal key={m.id} delay={i * 80}>
+                    <TeamCard member={m} />
+                  </Reveal>
+                ))}
               </div>
             </section>
           )

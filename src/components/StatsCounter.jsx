@@ -13,7 +13,8 @@ function useCountUp(end, duration = 2000) {
           const start = performance.now()
           const animate = (now) => {
             const progress = Math.min((now - start) / duration, 1)
-            setCount(Math.floor(progress * end))
+            const eased = 1 - Math.pow(1 - progress, 3)
+            setCount(Math.floor(eased * end))
             if (progress < 1) requestAnimationFrame(animate)
           }
           requestAnimationFrame(animate)
@@ -28,11 +29,15 @@ function useCountUp(end, duration = 2000) {
   return { count, ref }
 }
 
-function StatItem({ value, label, suffix = '+' }) {
+function StatItem({ value, label, suffix = '+', index = 0 }) {
   const { count, ref } = useCountUp(value)
   return (
-    <div ref={ref} className="glass rounded-2xl p-6 text-center glow-cyan">
-      <div className="font-display text-3xl sm:text-4xl font-bold gradient-text animate-count">
+    <div
+      ref={ref}
+      className="glass rounded-2xl p-6 text-center glow-cyan card-hover stat-pop"
+      style={{ animationDelay: `${index * 100}ms` }}
+    >
+      <div className="font-display text-3xl sm:text-4xl font-bold gradient-text">
         {count}{suffix}
       </div>
       <div className="text-slate-400 text-sm mt-2">{label}</div>
@@ -50,8 +55,8 @@ export default function StatsCounter({ stats }) {
 
   return (
     <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-      {items.map((item) => (
-        <StatItem key={item.label} {...item} />
+      {items.map((item, i) => (
+        <StatItem key={item.label} {...item} index={i} />
       ))}
     </div>
   )

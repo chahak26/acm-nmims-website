@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const links = [
   { to: '/', label: 'Home' },
@@ -17,16 +17,29 @@ const links = [
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
   const location = useLocation()
 
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20)
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
+  useEffect(() => {
+    setOpen(false)
+  }, [location.pathname])
+
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 glass">
+    <nav className={`fixed top-0 left-0 right-0 z-50 glass transition-all duration-300 ${scrolled ? 'nav-scrolled' : ''}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan to-purple flex items-center justify-center font-display font-bold text-sm text-white">
-              A
-            </div>
+          <Link to="/" className="flex items-center gap-2 group">
+            <img
+              src="/images/acm-logo.png"
+              alt="ACM NMIMS Indore"
+              className="h-9 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+            />
             <span className="font-display font-bold text-sm sm:text-base hidden sm:block">
               ACM <span className="text-cyan">NMIMS</span>
             </span>
@@ -37,10 +50,10 @@ export default function Navbar() {
               <Link
                 key={to}
                 to={to}
-                className={`px-3 py-2 rounded-lg text-sm transition-colors ${
+                className={`px-3 py-2 rounded-lg text-sm transition-all duration-200 ${
                   location.pathname === to
-                    ? 'text-cyan bg-white/5'
-                    : 'text-slate-300 hover:text-white hover:bg-white/5'
+                    ? 'text-cyan bg-white/5 nav-link-active'
+                    : 'text-slate-300 hover:text-white hover:bg-white/5 hover:-translate-y-0.5'
                 }`}
               >
                 {label}
@@ -50,10 +63,10 @@ export default function Navbar() {
 
           <button
             onClick={() => setOpen(!open)}
-            className="lg:hidden p-2 rounded-lg hover:bg-white/5"
+            className="lg:hidden p-2 rounded-lg hover:bg-white/5 transition-colors"
             aria-label="Toggle menu"
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6 transition-transform duration-300" style={{ transform: open ? 'rotate(90deg)' : 'none' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {open ? (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               ) : (
@@ -65,15 +78,16 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="lg:hidden glass border-t border-white/5 pb-4">
-          {links.map(({ to, label }) => (
+        <div className="lg:hidden glass border-t border-white/5 pb-4 mobile-menu-enter">
+          {links.map(({ to, label }, i) => (
             <Link
               key={to}
               to={to}
               onClick={() => setOpen(false)}
-              className={`block px-6 py-3 text-sm ${
-                location.pathname === to ? 'text-cyan bg-white/5' : 'text-slate-300'
+              className={`block px-6 py-3 text-sm transition-all ${
+                location.pathname === to ? 'text-cyan bg-white/5' : 'text-slate-300 hover:text-white hover:pl-8'
               }`}
+              style={{ animationDelay: `${i * 40}ms` }}
             >
               {label}
             </Link>

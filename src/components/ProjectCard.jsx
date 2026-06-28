@@ -8,7 +8,7 @@ export default function ProjectCard({ project }) {
   }
 
   return (
-    <div className="glass rounded-2xl p-6 hover:border-purple/30 border border-transparent transition-all group">
+    <div className="glass rounded-2xl p-6 hover:border-purple/30 border border-transparent card-hover group h-full">
       <div className="flex items-center justify-between mb-3">
         <span className={`text-xs font-medium ${catColors[project.category] || 'text-slate-400'}`}>{project.category}</span>
         <span className="text-xs text-slate-500">{project.year}</span>

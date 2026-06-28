@@ -2,21 +2,21 @@
   "faculty": [
     {
       "id": 1,
-      "name": "Dr. Ananya Mehta",
-      "role": "Faculty Coordinator",
-      "department": "Computer Science, STME",
+      "name": "Dr. Shruti Sharma",
+      "role": "Faculty Sponser",
+      "department": "Computer Engineering, STME",
       "linkedin": "https://linkedin.com",
       "github": "",
-      "timeline": "2023 – Present",
+      "timeline": "2024 – Present",
       "highlight": "Guiding ACM chapter growth and industry collaborations"
     }
   ],
   "leadership": [
     {
       "id": 2,
-      "name": "Rahul Verma",
+      "name": "Karishma Parwani",
       "role": "Chairperson",
-      "department": "B.Tech CSE",
+      "department": "B.Tech CE",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com",
       "timeline": "2025 – 2026",
@@ -26,9 +26,9 @@
   "core": [
     {
       "id": 3,
-      "name": "Sneha Patel",
+      "name": "Kanak Jaiswal",
       "role": "Vice Chairperson",
-      "department": "B.Tech IT",
+      "department": "B.Tech ",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com",
       "timeline": "2025 – 2026",
@@ -36,9 +36,9 @@
     },
     {
       "id": 4,
-      "name": "Arjun Singh",
+      "name": "Rishabh Ahuja",
       "role": "Secretary",
-      "department": "B.Tech CSE",
+      "department": "B.Tech",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com",
       "timeline": "2025 – 2026",
@@ -46,9 +46,9 @@
     },
     {
       "id": 5,
-      "name": "Kavya Reddy",
+      "name": "Heyramb Damle",
       "role": "Treasurer",
-      "department": "B.Tech CSE",
+      "department": "B.Tech",
       "linkedin": "https://linkedin.com",
       "github": "",
       "timeline": "2025 – 2026",
@@ -58,9 +58,9 @@
   "technical": [
     {
       "id": 6,
-      "name": "Dev Sharma",
+      "name": "Anoopam Kanoongo",
       "role": "Technical Lead",
-      "department": "B.Tech CSE",
+      "department": "B.Tech CE",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com",
       "timeline": "2025 – 2026",
@@ -68,9 +68,9 @@
     },
     {
       "id": 7,
-      "name": "Isha Gupta",
-      "role": "Web Developer",
-      "department": "B.Tech IT",
+      "name": "Aditya Mangwani",
+      "role": "Web Master",
+      "department": "B.Tech STME",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com",
       "timeline": "2025 – 2026",
@@ -80,9 +80,9 @@
   "design": [
     {
       "id": 8,
-      "name": "Meera Joshi",
+      "name": "Suhani Neema",
       "role": "Design Lead",
-      "department": "B.Tech CSE",
+      "department": "B.Tech STME",
       "linkedin": "https://linkedin.com",
       "github": "",
       "timeline": "2025 – 2026",
@@ -92,9 +92,9 @@
   "events": [
     {
       "id": 9,
-      "name": "Nikita Rao",
+      "name": "Pranshu Sharma",
       "role": "Event Manager",
-      "department": "B.Tech CSE",
+      "department": "B.Tech CE",
       "linkedin": "https://linkedin.com",
       "github": "",
       "timeline": "2025 – 2026",
@@ -104,9 +104,9 @@
   "alumni": [
     {
       "id": 10,
-      "name": "Aditya Khanna",
+      "name": "ABC",
       "role": "Alumni Mentor",
-      "department": "B.Tech CSE '24",
+      "department": "B.Tech CE '24",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com",
       "timeline": "2023 – 2024",
