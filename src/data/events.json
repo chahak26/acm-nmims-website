@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Intro to Web Development Workshop",
+    "date": "2024-09-15",
+    "type": "Workshop",
+    "speaker": "Dr. Priya Sharma",
+    "description": "A hands-on workshop covering HTML, CSS, and JavaScript fundamentals for first-year students.",
+    "registrations": 85,
+    "certificate": true,
+    "resources": ["Slides", "Code Samples", "Assignment PDF"]
+  },
+  {
+    "id": 2,
+    "title": "CodeStorm Hackathon 2024",
+    "date": "2024-11-20",
+    "type": "Hackathon",
+    "speaker": "Industry Mentors Panel",
+    "description": "24-hour hackathon with 120+ participants building solutions for smart campus challenges.",
+    "registrations": 120,
+    "certificate": true,
+    "resources": ["Problem Statements", "Winner Projects"]
+  },
+  {
+    "id": 3,
+    "title": "AI/ML Tech Talk Series",
+    "date": "2025-01-18",
+    "type": "Talk",
+    "speaker": "Prof. Rajesh Kumar",
+    "description": "Expert session on machine learning applications in industry and research opportunities.",
+    "registrations": 95,
+    "certificate": false,
+    "resources": ["Recording", "Slides"]
+  },
+  {
+    "id": 4,
+    "title": "Git & GitHub Masterclass",
+    "date": "2025-02-22",
+    "type": "Workshop",
+    "speaker": "ACM Technical Team",
+    "description": "Version control fundamentals, branching strategies, and open-source contribution workflows.",
+    "registrations": 70,
+    "certificate": true,
+    "resources": ["Git Cheatsheet", "Practice Repo"]
+  },
+  {
+    "id": 5,
+    "title": "Cloud Computing Webinar",
+    "date": "2025-03-10",
+    "type": "Webinar",
+    "speaker": "AWS Community Builder",
+    "description": "Introduction to cloud services, deployment pipelines, and serverless architecture patterns.",
+    "registrations": 110,
+    "certificate": false,
+    "resources": ["Webinar Recording", "AWS Credits Guide"]
+  },
+  {
+    "id": 6,
+    "title": "InnovateX Hackathon 2025",
+    "date": "2025-04-05",
+    "type": "Hackathon",
+    "speaker": "Faculty & Industry Judges",
+    "description": "Annual flagship hackathon with themes in IoT, AI, and sustainable technology.",
+    "registrations": 150,
+    "certificate": true,
+    "resources": ["Project Gallery", "Judging Criteria"]
+  },
+  {
+    "id": 7,
+    "title": "Cybersecurity Awareness Session",
+    "date": "2025-05-18",
+    "type": "Talk",
+    "speaker": "Ethical Hacking Expert",
+    "description": "Practical cybersecurity tips, common vulnerabilities, and career paths in infosec.",
+    "registrations": 80,
+    "certificate": false,
+    "resources": ["Security Checklist"]
+  },
+  {
+    "id": 8,
+    "title": "React & Modern Frontend Bootcamp",
+    "date": "2025-09-12",
+    "type": "Workshop",
+    "speaker": "Senior Web Developer",
+    "description": "Intensive bootcamp on React, state management, and building production-ready UIs.",
+    "registrations": 65,
+    "certificate": true,
+    "resources": ["Starter Template", "Deployment Guide"]
+  },
+  {
+    "id": 9,
+    "title": "Open Source Contribution Drive",
+    "date": "2026-01-25",
+    "type": "Workshop",
+    "speaker": "ACM Core Team",
+    "description": "Guided session on finding good-first-issues, writing PRs, and contributing to OSS projects.",
+    "registrations": 55,
+    "certificate": true,
+    "resources": ["Contribution Guide", "Curated Repos List"]
+  },
+  {
+    "id": 10,
+    "title": "WebSprint 2026 Launch",
+    "date": "2026-06-20",
+    "type": "Talk",
+    "speaker": "ACM Faculty Coordinator",
+    "description": "Official kickoff of WebSprint 2026 — the chapter website build challenge open to entire STME community.",
+    "registrations": 200,
+    "certificate": false,
+    "resources": ["Guidelines PDF", "Submission Form"]
+  }
+]

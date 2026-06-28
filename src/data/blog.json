@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "WebSprint 2026: Building the Chapter's Digital Legacy",
+    "date": "2026-06-20",
+    "excerpt": "Official launch of the month-long website build sprint open to the entire STME community.",
+    "category": "Announcement"
+  },
+  {
+    "id": 2,
+    "title": "ACM Indore Newsletter — May 2026",
+    "date": "2026-05-15",
+    "excerpt": "Monthly roundup of workshops, member spotlights, and upcoming hackathon details.",
+    "category": "Newsletter"
+  },
+  {
+    "id": 3,
+    "title": "InnovateX Hackathon 2025 — Recap",
+    "date": "2025-04-10",
+    "excerpt": "Highlights from our flagship hackathon including winning projects and participant feedback.",
+    "category": "Event Recap"
+  }
+]

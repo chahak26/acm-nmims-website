@@ -1,0 +1,116 @@
+{
+  "faculty": [
+    {
+      "id": 1,
+      "name": "Dr. Ananya Mehta",
+      "role": "Faculty Coordinator",
+      "department": "Computer Science, STME",
+      "linkedin": "https://linkedin.com",
+      "github": "",
+      "timeline": "2023 – Present",
+      "highlight": "Guiding ACM chapter growth and industry collaborations"
+    }
+  ],
+  "leadership": [
+    {
+      "id": 2,
+      "name": "Rahul Verma",
+      "role": "Chairperson",
+      "department": "B.Tech CSE",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "timeline": "2025 – 2026",
+      "highlight": "Led 15+ technical events and expanded chapter membership by 40%"
+    }
+  ],
+  "core": [
+    {
+      "id": 3,
+      "name": "Sneha Patel",
+      "role": "Vice Chairperson",
+      "department": "B.Tech IT",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "timeline": "2025 – 2026",
+      "highlight": "Event coordination and sponsor outreach"
+    },
+    {
+      "id": 4,
+      "name": "Arjun Singh",
+      "role": "Secretary",
+      "department": "B.Tech CSE",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "timeline": "2025 – 2026",
+      "highlight": "Documentation and meeting management"
+    },
+    {
+      "id": 5,
+      "name": "Kavya Reddy",
+      "role": "Treasurer",
+      "department": "B.Tech CSE",
+      "linkedin": "https://linkedin.com",
+      "github": "",
+      "timeline": "2025 – 2026",
+      "highlight": "Budget planning and resource allocation"
+    }
+  ],
+  "technical": [
+    {
+      "id": 6,
+      "name": "Dev Sharma",
+      "role": "Technical Lead",
+      "department": "B.Tech CSE",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "timeline": "2025 – 2026",
+      "highlight": "Full-stack development and workshop content"
+    },
+    {
+      "id": 7,
+      "name": "Isha Gupta",
+      "role": "Web Developer",
+      "department": "B.Tech IT",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "timeline": "2025 – 2026",
+      "highlight": "Chapter website and digital infrastructure"
+    }
+  ],
+  "design": [
+    {
+      "id": 8,
+      "name": "Meera Joshi",
+      "role": "Design Lead",
+      "department": "B.Tech CSE",
+      "linkedin": "https://linkedin.com",
+      "github": "",
+      "timeline": "2025 – 2026",
+      "highlight": "Event posters, social media, and branding"
+    }
+  ],
+  "events": [
+    {
+      "id": 9,
+      "name": "Nikita Rao",
+      "role": "Event Manager",
+      "department": "B.Tech CSE",
+      "linkedin": "https://linkedin.com",
+      "github": "",
+      "timeline": "2025 – 2026",
+      "highlight": "Hackathon logistics and speaker coordination"
+    }
+  ],
+  "alumni": [
+    {
+      "id": 10,
+      "name": "Aditya Khanna",
+      "role": "Alumni Mentor",
+      "department": "B.Tech CSE '24",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "timeline": "2023 – 2024",
+      "highlight": "Now SDE at a top product company; mentors current members"
+    }
+  ]
+}

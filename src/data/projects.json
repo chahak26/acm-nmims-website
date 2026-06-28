@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Smart Campus IoT Dashboard",
+    "category": "IoT",
+    "description": "Real-time monitoring of campus energy usage, occupancy, and environmental sensors.",
+    "tech": ["Arduino", "React", "Node.js", "MQTT"],
+    "github": "https://github.com",
+    "demo": "https://example.com",
+    "year": "2025"
+  },
+  {
+    "id": 2,
+    "title": "AI Study Assistant",
+    "category": "AI/ML",
+    "description": "NLP-powered chatbot helping students with course material and exam preparation.",
+    "tech": ["Python", "TensorFlow", "FastAPI", "React"],
+    "github": "https://github.com",
+    "demo": "https://example.com",
+    "year": "2025"
+  },
+  {
+    "id": 3,
+    "title": "ACM Event Portal",
+    "category": "Web",
+    "description": "Internal event management system with registration, attendance tracking, and certificates.",
+    "tech": ["React", "Express", "MongoDB"],
+    "github": "https://github.com",
+    "demo": "https://example.com",
+    "year": "2024"
+  },
+  {
+    "id": 4,
+    "title": "Open Source Contribution Tracker",
+    "category": "Open Source",
+    "description": "Platform tracking chapter members' open-source contributions and PR statistics.",
+    "tech": ["Next.js", "GitHub API", "Tailwind"],
+    "github": "https://github.com",
+    "demo": "https://example.com",
+    "year": "2025"
+  },
+  {
+    "id": 5,
+    "title": "Blockchain Certificate Verifier",
+    "category": "Research",
+    "description": "Research project for tamper-proof event certificate verification using blockchain.",
+    "tech": ["Solidity", "Web3.js", "React"],
+    "github": "https://github.com",
+    "demo": "",
+    "year": "2024"
+  },
+  {
+    "id": 6,
+    "title": "CodeQuest Competitive Platform",
+    "category": "Web",
+    "description": "Online coding competition platform with live leaderboard and auto-evaluation.",
+    "tech": ["React", "Node.js", "Docker", "Redis"],
+    "github": "https://github.com",
+    "demo": "https://example.com",
+    "year": "2026"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "stats": {
+    "eventsOrganized": 45,
+    "membersActive": 180,
+    "projectsCompleted": 22,
+    "awardsWon": 8
+  },
+  "competitions": [
+    {
+      "title": "Smart India Hackathon 2025 — Shortlisted",
+      "date": "2025-08",
+      "description": "Team shortlisted among top 100 teams nationally for smart agriculture solution."
+    },
+    {
+      "title": "CodeStorm Hackathon — 1st Place",
+      "date": "2024-11",
+      "description": "Winning team built an AI-powered campus navigation assistant."
+    },
+    {
+      "title": "Inter-College Coding Contest — 2nd Place",
+      "date": "2025-03",
+      "description": "ACM team secured runner-up position among 25 participating colleges."
+    }
+  ],
+  "recognitions": [
+    {
+      "title": "ACM Student Chapter — Active Status",
+      "date": "2024",
+      "description": "Maintained active chapter status with consistent event documentation and membership growth."
+    },
+    {
+      "title": "Outstanding Event Documentation",
+      "date": "2025",
+      "description": "Recognized by university for comprehensive event reporting and media archives."
+    }
+  ],
+  "milestones": [
+    { "year": "2023", "event": "ACM Student Chapter established at NMIMS Indore STME" },
+    { "year": "2024", "event": "First flagship hackathon with 120+ participants" },
+    { "year": "2024", "event": "Crossed 100 active member milestone" },
+    { "year": "2025", "event": "Launched ACM-W Women in Computing initiative" },
+    { "year": "2025", "event": "Hosted 20+ technical workshops in a single academic year" },
+    { "year": "2026", "event": "WebSprint 2026 — Official chapter website initiative launched" }
+  ]
+}
