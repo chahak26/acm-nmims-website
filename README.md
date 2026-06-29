@@ -6,7 +6,7 @@ Official ACM Student Chapter website for NMIMS University, Indore (STME). Built 
 
 ## Live Demo
 
-Deploy to Vercel and add your live URL here.
+https://acm-nmims-website.vercel.app
 
 ## Tech Stack
 
