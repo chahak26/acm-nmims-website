@@ -6,6 +6,7 @@ import team from '../data/team.json'
 const sections = [
   { key: 'faculty', title: 'Faculty Coordinator' },
   { key: 'leadership', title: 'Leadership' },
+  { key: 'acmw_core', title: 'ACM-W Core Team' },
   { key: 'core', title: 'Core Committee' },
   { key: 'technical', title: 'Technical Team' },
   { key: 'design', title: 'Design Team' },

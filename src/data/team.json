@@ -3,12 +3,46 @@
     {
       "id": 1,
       "name": "Dr. Shruti Sharma",
-      "role": "Faculty Sponser",
-      "department": "Computer Engineering, STME",
+      "role": "Faculty Sponsor",
+      "department": "STME, NMIMS Indore",
       "linkedin": "https://linkedin.com",
       "github": "",
       "timeline": "2024 – Present",
-      "highlight": "Guiding ACM chapter growth and industry collaborations"
+      "highlight": "Guiding ACM chapter growth and industry collaborations",
+      "photo": "/images/faculty-shruti-sharma.png"
+    },
+    {
+      "id": 11,
+      "name": "Dr. Vikas Khare",
+      "role": "Faculty Coordinator",
+      "department": "STME, NMIMS Indore",
+      "linkedin": "https://linkedin.com",
+      "github": "",
+      "timeline": "2024 – Present",
+      "highlight": "Mentoring chapter operations and academic alignment.",
+      "photo": "/images/faculty-vikas-khare.png"
+    },
+    {
+      "id": 12,
+      "name": "Dr. Ankur Ratmele",
+      "role": "Faculty Coordinator",
+      "department": "STME, NMIMS Indore",
+      "linkedin": "https://linkedin.com",
+      "github": "",
+      "timeline": "2024 – Present",
+      "highlight": "Supports chapter leadership and technical initiatives.",
+      "photo": "/images/faculty-ankur-ratmele.png"
+    },
+    {
+      "id": 13,
+      "name": "Dr. Abhay Deep Seth",
+      "role": "Faculty Coordinator",
+      "department": "STME, NMIMS Indore",
+      "linkedin": "https://linkedin.com",
+      "github": "",
+      "timeline": "2024 – Present",
+      "highlight": "Contributes to event planning and student guidance.",
+      "photo": "/images/faculty-abhaydeep-seth.png"
     }
   ],
   "leadership": [
@@ -53,6 +87,74 @@
       "github": "",
       "timeline": "2025 – 2026",
       "highlight": "Budget planning and resource allocation"
+    }
+  ],
+  "acmw_core": [
+    {
+      "id": 101,
+      "name": "Vanshika Nagar",
+      "role": "Chairperson",
+      "department": "STME, NMIMS Indore",
+      "linkedin": "",
+      "github": "",
+      "timeline": "2025 – 2026",
+      "highlight": "Leads ACM-W initiatives and community activities.",
+      "photo": "/images/acmw-vanhsika-nagar.png"
+    },
+    {
+      "id": 102,
+      "name": "Kanak Jaiswal",
+      "role": "Vice Chairperson",
+      "department": "STME, NMIMS Indore",
+      "linkedin": "",
+      "github": "",
+      "timeline": "2025 – 2026",
+      "highlight": "Supports event coordination and chapter outreach.",
+      "photo": "/images/acmw-kanak-jaiswal.png"
+    },
+    {
+      "id": 103,
+      "name": "Vanshika Jaiswal",
+      "role": "Secretary",
+      "department": "STME, NMIMS Indore",
+      "linkedin": "",
+      "github": "",
+      "timeline": "2025 – 2026",
+      "highlight": "Manages documentation and internal coordination.",
+      "photo": "/images/acmw-vanshika-jaiswal.png"
+    },
+    {
+      "id": 104,
+      "name": "Heyramb Damle",
+      "role": "Treasurer",
+      "department": "STME, NMIMS Indore",
+      "linkedin": "",
+      "github": "",
+      "timeline": "2025 – 2026",
+      "highlight": "Supports budgeting and resource planning.",
+      "photo": "/images/acmw-heyramb-damle.png"
+    },
+    {
+      "id": 105,
+      "name": "Raj Malviya",
+      "role": "Web Master",
+      "department": "STME, NMIMS Indore",
+      "linkedin": "",
+      "github": "",
+      "timeline": "2025 – 2026",
+      "highlight": "Maintains digital infrastructure and web assets.",
+      "photo": "/images/acmw-raj-malviya.png"
+    },
+    {
+      "id": 106,
+      "name": "Bhumi Agrawal",
+      "role": "Membership",
+      "department": "STME, NMIMS Indore",
+      "linkedin": "",
+      "github": "",
+      "timeline": "2025 – 2026",
+      "highlight": "Coordinates member onboarding and engagement.",
+      "photo": "/images/acmw-bhumi-agrawal.png"
     }
   ],
   "technical": [
