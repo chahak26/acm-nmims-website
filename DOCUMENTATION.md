@@ -2,8 +2,8 @@
 
 **WebSprint 2026 Submission**  
 **Theme:** Preserving Legacy. Showcasing Innovation.  
-**Author:** [Your Name]  
-**Date:** June 2026
+**Author:** Chahak Gandhi
+**Date:** 29 June 2026
 
 ---
 
@@ -138,4 +138,3 @@ ACM benefits (6 cards), recruitment notice with submission form link, volunteer 
 
 ---
 
-*Export this file to PDF for submission.*
