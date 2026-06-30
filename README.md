@@ -76,17 +76,7 @@ src/
 
 ## Editing Content
 
-All content lives in `src/data/*.json`. Update team names, events, projects, etc. without touching component code.
-
-## Submission Deliverables
-
-- [x] GitHub Repository (this repo)
-- [ ] Deployed Live Link (Vercel)
-- [ ] Demo Video (see `DEMO_VIDEO_SCRIPT.md`)
-- [ ] Documentation PDF (see `DOCUMENTATION.md`)
-
-**Submission Form:** https://forms.gle/DoeMttV7M61Lbo2PA  
-**Deadline:** 30 June 2026, 11:59 PM
+All content lives in `src/data/*.json`.
 
 ## Future Improvements
 
